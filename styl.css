@@ -1,0 +1,56 @@
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game {
+    display: grid;
+    gap: 1px;
+
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(66, 170, 225);
+}
+
+.square.snake{
+    background-color: rgb(5, 235, 5);
+}
+.square.head{
+    background-color: red;
+    /* background-image: url(snake.png);
+    background-repeat: no-repeat;
+    background-position: center center; */
+}
+
+.food{
+    background-image: url(apple.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+}
+
+#poleNumber{
+    width: 50px;
+    margin-left: 15px;
+}
+
+.points{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.Now,.Best{
+    color: white;
+}
+.Nowpoints,.Bestpoints{
+    margin-left: 5px;
+}
